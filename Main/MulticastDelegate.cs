@@ -9,7 +9,7 @@ namespace Main
     public delegate void RectangleDelegare(double Width,double Height);
     public class MulticastDelegate
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             MulticastDelegate multicastDelegate = new MulticastDelegate();
             RectangleDelegare rectangleDelegare = new RectangleDelegare(multicastDelegate.GetArea);
